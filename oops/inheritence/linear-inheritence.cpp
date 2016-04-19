@@ -6,10 +6,12 @@ class parent{
     // Parent class
     int number;
 
-    void checkEven(){
+    void checkEven() {
+
         if (number % 2 == 0) {
             std::cout << "\n Even" << std::endl;
         }
+
         else {
             std::cout << "\n Odd" << std::endl;
         }
@@ -17,7 +19,7 @@ class parent{
 
 public:
 
-    parent(){
+    parent() {
         cout << "Parent class object initiated" << endl;
     }
 
