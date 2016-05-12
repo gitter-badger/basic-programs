@@ -5,11 +5,13 @@ using namespace std;
 
 int main()
 {
-    ofstream file("myFile.txt");
+    ofstream file("myFile.txt"); // open file
 
-    file << "Amazgvnging";
+    file << "Cool This writes to file" << endl;
 
-    file.close();
+    file << "A new line" << endl;
+
+    file.close(); // close the file
 
     return 0;
 }
