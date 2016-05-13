@@ -3,8 +3,7 @@
 
 using namespace std;
 
-int main()
-{
+int main() {
     ofstream file("myFile.txt"); // open file
 
     file << "Cool This writes to file" << endl;
